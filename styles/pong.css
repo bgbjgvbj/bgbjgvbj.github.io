@@ -1,31 +1,53 @@
 #ball {
     background-color: white;
-    width: 10px;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+#pan {
+    background-color: rgb(100,100,100);
+    width: 75px;
     height: 10px;
-    margin-bottom: 15px;
-    clear: both;
-}
-
-#pan1 {
-    background-color: rgb(0,100,100);
-    width: 10px;
-    height: 75px;
-    margin-bottom: 15px;
-    clear: both;
-}
-
-#pan2 {
-    background-color: rgb(150,0,0);
-    width: 10px;
-    height: 75px;
     margin-bottom: 15px;
     clear: both;
 }
 
 #barrier {
     background: none;
+	align: middle;
     width: 400px;
-    height: 200px;
+    height: 300px;
     border: 4px solid;
     border-color: rgb(150,150,150);
+}
+
+#over {
+	color: rgb(255,255,255);
+	text-align: center;
+	font-family: Impact;
+	font-size: xxx-large;
+}
+
+#retry {
+	background-color: rgb(200, 200, 200);
+	color: rgb(0,0,0);
+	text-align: center;
+	font-family: Impact;
+	font-size: 100%;
+	font-weight: 600;
+	cursor: pointer;
+	width: 10%;
+	border: 2px solid;
+	border-color: rgb(150, 150, 150);
+	height: 5%; 
+}
+
+#retry:hover {
+	background-color:  rgb(255, 255, 255);
+}
+
+#retry:active {
+	background-color:  rgb(255, 255, 255);
 }
